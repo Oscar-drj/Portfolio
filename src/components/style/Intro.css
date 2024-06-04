@@ -1,0 +1,42 @@
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 144px 0px;
+    color: white;
+}
+
+.introduction-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding-right: 128px;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-top: 24px;
+    padding: 0;
+}
+
+strong {
+    color: #e6b823;
+}
+
+.profile-picture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}

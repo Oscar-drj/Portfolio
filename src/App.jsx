@@ -1,4 +1,5 @@
 import './App.css'
+import { Intro } from './components/Intro'
 import { Nav } from './components/Nav'
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
       <header>
         <Nav />
       </header>
+      <main>
+        <Intro />
+      </main>
     </>
   )
 }

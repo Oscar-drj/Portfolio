@@ -1,0 +1,16 @@
+.btn-container {
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    background-color: #1F2937;
+    border: 1px solid #4A5462;
+    border-radius: 1rem;
+    margin-right: 16px; 
+    font-size: 14px;
+    gap: 8px;
+}
+
+.btn-container span {
+    display: flex;
+    align-items: center;
+}
