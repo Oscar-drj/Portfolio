@@ -4,6 +4,7 @@ import { Nav } from './components/Nav'
 import { ProjectCard } from './components/ProjectCard'
 import { WorkCard } from './components/WorkCard.jsx'
 import { projects } from './constants/projects.jsx'
+import { works } from './constants/works.js'
 
 function App() {
   return (
@@ -32,7 +33,17 @@ function App() {
         </section>
         <section className="work-experience">
           <h2>Experiencia laboral</h2>
-          <WorkCard />
+          <div className="work-cards">
+            {works.map(({ work, company, date, description }, index) => (
+              <WorkCard
+                key={index}
+                work={work}
+                company={company}
+                date={date}
+                description={description}
+              />
+            ))}
+          </div>
         </section>
       </main>
     </>

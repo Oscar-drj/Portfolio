@@ -15,8 +15,28 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  color: white;
+}
+
+p {
+  color: #B5B9C0;
+  line-height: 24px;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+}
+
+.work-experience {
+  padding: 144px 0;
+  
+}
+
+.work-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }

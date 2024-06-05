@@ -1,14 +1,19 @@
-export function WorkCard () {
-    return(
-        <div className="card-container">
-            <div className="data">
-                <h3>Desarrollador de software</h3>
-                <h3>Datapta</h3>
-                <p>Noviembre 2022 - Junio 2023</p>
-            </div>
-            <div className="description">
+/* eslint-disable react/prop-types */
+import './style/WorkCard.css'
 
-            </div>
-        </div>
-    )
+export function WorkCard({work, company, date, description}) {
+  return (
+    <div className="work-card-container">
+      <div className="data">
+        <h3><strong>{work}</strong></h3>
+        <h3>{company}</h3>
+        <p>{date}</p>
+      </div>
+      <div className="description">
+        <p>
+          {description}
+        </p>
+      </div>
+    </div>
+  )
 }
