@@ -1,0 +1,54 @@
+.project-cards {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    border: 1px solid #4A5462;
+    border-radius: 1rem;
+    color: #6F97CB;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+img {
+    min-width: 100%;
+    min-height: 150px;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+p, h3 {
+    margin: 24px 0;
+}
+
+.tecnologies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.project-description {
+    font-size: 14px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-around;
+}

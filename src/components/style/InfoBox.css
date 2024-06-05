@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 2px 12px;
+    border-radius: 8px;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container span {
+    display: flex;
+    align-items: center;
+}
+
+.react-bg {
+    background-color: #15182C;
+}

@@ -7,9 +7,16 @@ header {
 }
 
 main {
-  padding: 0px 20%;
+  padding: 0px 25%;
 }
 
 h2 {
+  color: white;
   font-size: 30px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
 }
